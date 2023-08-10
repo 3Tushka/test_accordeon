@@ -1,0 +1,32 @@
+.methodTwo {
+
+    .accordion {
+        overflow: hidden;
+
+        &__label {
+            display: flex;
+            margin: 0 auto;
+            padding: 0.5em;
+
+            font-weight: 600;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        &__content {
+            display: none;
+        }
+
+        &__input {
+            display: none;
+        }
+
+        .accordion__input:checked~.accordion__content {
+            display: flex;
+
+            padding: 0 0.5em;
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+    }
+}

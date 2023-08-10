@@ -1,0 +1,17 @@
+#app {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.box {
+    width: 30%;
+    margin: 20px 0;
+}
+
+.accordion {
+    padding: 0.5em;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+}
